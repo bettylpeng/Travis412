@@ -20,7 +20,7 @@ public class SimpleCalculatorTest {
 	@Test
 	public void testMinus() {
 		SimpleCalculator calc = new SimpleCalculator();
-		assertEquals(calc.minus(5, 2), 3);
+		assertEquals(calc.minus(5, 2), 2);
 	}
 	
 	@Test
