@@ -1,5 +1,4 @@
 package travis_ci_tutorial_java;
-
 import java.util.*;
 
 import static org.junit.Assert.*;
@@ -21,13 +20,12 @@ public class SimpleCalculatorTest {
 	@Test
 	public void testMinus() {
 		SimpleCalculator calc = new SimpleCalculator();
-		assertEquals(calc.minus(5, 2), 2);
+		assertEquals(calc.minus(5, 2), 3);
 	}
 	
 	@Test
 	public void testDivide() {
 		SimpleCalculator calc = new SimpleCalculator();
-		assertEquals(calc.divide(6, 3), 3);
-	}
-	
+		assertEquals(calc.divide(6, 3), 2);
+	}	
 }
